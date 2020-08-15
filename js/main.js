@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    //$('img').remove();
 
     $('.numbers .one').click(function(){
         //$('.result span').remove();
