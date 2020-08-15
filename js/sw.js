@@ -1,0 +1,2 @@
+'use strict';
+importScripts('sw-toolbox.js'); toolbox.precache(["js/jquery.js","js/modernizr.js","js/math.js","js/main.js","index.html","css/normalize.css","css/style.css"]); toolbox.router.get('/images/*', toolbox.cacheFirst); toolbox.router.get('/*', toolbox.networkFirst, { networkTimeoutSeconds: 5});

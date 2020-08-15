@@ -1,0 +1,7 @@
+{
+  "name": "Калькулятор",
+  "short_name": "Calc",
+  "lang": "ru",
+  "start_url": "index.html",
+  "display": "standalone"
+}
