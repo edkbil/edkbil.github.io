@@ -67,35 +67,6 @@ main{
     background: #8a8a8a;
     border: 2px solid #8a8a8a;
 }
-.numbers .clear{
-    /*width: 150px;*/
-    height: 170px;
-    position: relative;
-    top: -90px;
-    margin-bottom: -90px;
-    padding-top: 60px;
-    background: #c60d0d;
-    border: 2px solid #c60d0d;
-}
-.numbers .res{
-    /*width: 150px;*/
-    height: 170px;
-    position: relative;
-    top: -90px;
-    margin-bottom: -90px;
-    padding-top: 60px;
-    background: #379716;
-    border: 2px solid #379716;
-}
-.numbers .one:active{
-    background: #65646a;
-}
-/*@media (max-width: 0000px) {*/
-
-/*}*/
-/*@media (prefers-color-scheme: dark) {*/
-
-/*}*/
 @media (prefers-color-scheme: light) {
     body{
         background: #fff;
@@ -121,4 +92,27 @@ main{
         color: #fff;
         border: 2px solid #767676;
     }
+}
+.numbers .clear{
+    /*width: 150px;*/
+    height: 170px;
+    position: relative;
+    top: -90px;
+    margin-bottom: -90px;
+    padding-top: 60px;
+    background: #c60d0d;
+    border: 2px solid #c60d0d;
+}
+.numbers .res{
+    /*width: 150px;*/
+    height: 170px;
+    position: relative;
+    top: -90px;
+    margin-bottom: -90px;
+    padding-top: 60px;
+    background: #379716;
+    border: 2px solid #379716;
+}
+.numbers .one:active{
+    background: #65646a;
 }
