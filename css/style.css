@@ -29,7 +29,6 @@ main{
     height: 65px;
     text-align: right;
     font-weight: bold;
-    overflow-x: scroll;
 }
 .show{
     color: #b2b2b2;
@@ -39,7 +38,6 @@ main{
     text-align: right;
     width: 900px;
     margin: 10px 0 20px -580px;
-    overflow-x: scroll;
 }
 .show .arh{
     color: #379716;
@@ -95,3 +93,32 @@ main{
 /*@media (max-width: 0000px) {*/
 
 /*}*/
+/*@media (prefers-color-scheme: dark) {*/
+
+/*}*/
+@media (prefers-color-scheme: light) {
+    body{
+        background: #fff;
+    }
+    .current{
+        color: #000;
+    }
+    .show{
+        color: #626262;
+    }
+    .numbers .btn{
+        border: 2px solid #f3f2f8;
+        color: #626262;
+        background: #f3f2f8;
+    }
+    .numbers .sin{
+        background: #767676;
+        border: 2px solid #767676;
+        color: #fff;
+    }
+    .numbers .back{
+        background: #767676;
+        color: #fff;
+        border: 2px solid #767676;
+    }
+}
