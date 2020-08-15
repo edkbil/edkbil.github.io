@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+body{
+    background: #000;
+    /*background: #fff;*/
+}
+body *{
+    /*font-family: sans-serif;*/
+    font-family: 'Numans', sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 320px;
+    overflow: hidden;
+    margin: auto;
+    padding: 50px 0 0 0;
+}
+.result{
+    /*color: #fff;*/
+    /*font-size: 30px;*/
+    /*height: 40px;*/
+    /*text-align: right;*/
+    display: none;
+}
+.current{
+    color: #fff;
+    font-size: 60px;
+    height: 65px;
+    text-align: right;
+    font-weight: bold;
+}
+.show{
+    color: #b2b2b2;
+    font-size: 23px;
+    height: 26px;
+    letter-spacing: 5px;
+    text-align: right;
+    width: 900px;
+    margin: 10px 0 20px -580px;
+}
+.show .arh{
+    color: #379716;
+    font-size: 13px;
+    position: relative;
+    top: -4px;
+    display: inline-block;
+}
+.numbers .btn{
+    width: 70px;
+    height: 80px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    padding: 13px 0 0 0;
+    border: 2px solid #302f34;
+    color: #e0e0e0;
+    background: #302f34;
+}
+.numbers .clear{
+    /*width: 150px;*/
+    height: 170px;
+    position: relative;
+    top: -90px;
+    margin-bottom: -90px;
+    padding-top: 60px;
+    background: #c60d0d;
+    border: 2px solid #c60d0d;
+}
+.numbers .res{
+    /*width: 150px;*/
+    height: 170px;
+    position: relative;
+    top: -90px;
+    margin-bottom: -90px;
+    padding-top: 60px;
+    background: #379716;
+    border: 2px solid #379716;
+}
+.numbers .back img{
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 0 0;
+
+}
+.numbers .one:active{
+    background: #65646a;
+}
+/*@media (max-width: 0000px) {*/
+
+/*}*/
