@@ -29,6 +29,7 @@ main{
     height: 65px;
     text-align: right;
     font-weight: bold;
+    overflow-x: scroll;
 }
 .show{
     color: #b2b2b2;
@@ -38,6 +39,7 @@ main{
     text-align: right;
     width: 900px;
     margin: 10px 0 20px -580px;
+    overflow-x: scroll;
 }
 .show .arh{
     color: #379716;
