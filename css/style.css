@@ -17,10 +17,6 @@ main{
     padding: 50px 0 0 0;
 }
 .result{
-    /*color: #fff;*/
-    /*font-size: 30px;*/
-    /*height: 40px;*/
-    /*text-align: right;*/
     display: none;
 }
 .current{
@@ -68,7 +64,6 @@ main{
     border: 2px solid #8a8a8a;
 }
 .numbers .clear{
-    /*width: 150px;*/
     height: 170px;
     position: relative;
     top: -90px;
@@ -78,7 +73,6 @@ main{
     border: 2px solid #c60d0d;
 }
 .numbers .res{
-    /*width: 150px;*/
     height: 170px;
     position: relative;
     top: -90px;
@@ -90,12 +84,6 @@ main{
 .numbers .one:active{
     background: #65646a;
 }
-/*@media (max-width: 0000px) {*/
-
-/*}*/
-/*@media (prefers-color-scheme: dark) {*/
-
-/*}*/
 @media (prefers-color-scheme: light) {
     body{
         background: #fff;
@@ -112,23 +100,23 @@ main{
         background: #f3f2f8;
     }
     .numbers .sin{
-        background: #767676;
-        border: 2px solid #767676;
+        background: #000000;
+        border: 2px solid #000000;
         color: #fff;
     }
     .numbers .back{
-        background: #767676;
+        background: #000000;
+        border: 2px solid #000000;
         color: #fff;
-        border: 2px solid #767676;
     }
     .numbers .clear{
         background: #c60d0d;
-        color: #e0e0e0;
+        color: #fff;
         border: 2px solid #c60d0d;
     }
     .numbers .res{
         background: #379716;
-        color: #e0e0e0;
+        color: #fff;
         border: 2px solid #379716;
     }
 }
