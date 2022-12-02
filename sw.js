@@ -3,7 +3,6 @@ this.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(cacheData).then((ceche) => {
       ceche.addAll([
-        "/index.html",
         "/manifest.json",
         "/favicon.ico",
         "/style.min.css",
