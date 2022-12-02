@@ -126,6 +126,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   //serviceWorker
   function swDev() {
+    let asdsa = window.location.href;
+    console.log("url is - " + asdsa);
     let swUrl = `https://edkbil.github.io/sw.js`;
     navigator.serviceWorker.register(swUrl).then((response) => {
       console.warn("response", response);
