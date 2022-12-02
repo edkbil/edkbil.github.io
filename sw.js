@@ -7,7 +7,7 @@ this.addEventListener("install", (event) => {
         "/favicon.ico",
         "/style.min.css",
         "/math.min.js",
-        "/script.js",
+        "/script.min.js",
         "/",
       ]);
     })
