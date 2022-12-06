@@ -58,10 +58,10 @@ const handleSetNumb = (numb) => {
     oldScreenNumber === "+"
   ) {
     if (numb === ".") {
-      let newScreenNumber = oldScreenNumber + numb;
-      setScreenNumber(newScreenNumber);
+      setScreenNumber(oldScreenNumber + numb);
+    } else {
+      setScreenNumber(numb);
     }
-    setScreenNumber(numb);
   } else {
     let newScreenNumber = oldScreenNumber + numb;
     setScreenNumber(newScreenNumber);
@@ -91,7 +91,6 @@ for (var i = 0; i < funcList.length; i++) {
   funcList[i].addEventListener("click", (e) => {
     e.preventDefault();
     wayArr = [...wayArr, screenNumber, e.target.textContent];
-    console.log(wayArr);
     setScreenNumber(e.target.textContent);
     setWay(wayArr);
   });
